@@ -170,8 +170,8 @@ def create_mosaic(jpg_group):
 	#print "Montaging images with command: " + graphicsmagick
 	os.system(graphicsmagick) 
 
-	print "Adding Label..."
-	graphicsmagick = "gm convert -append "+real_path+ "/assets/bn_booth_label_h.jpg  " + config.file_path + now + "_picmontage.jpg " + config.file_path + now + "_print.jpg" 
+	#print "Adding Label..."
+	#graphicsmagick = "gm convert -append "+real_path+ "/assets/bn_booth_label_h.jpg  " + config.file_path + now + "_picmontage.jpg " + config.file_path + now + "_print.jpg" 
 	#print "Adding label with command: " + graphicsmagick 
 	os.system(graphicsmagick) 
 
