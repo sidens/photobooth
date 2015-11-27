@@ -1,5 +1,5 @@
 
-#vim /boot/config.txt
+#nano /boot/config.txt
 
 ```
 # uncomment if you get no picture on HDMI for a default "safe" mode
@@ -13,13 +13,13 @@ disable_overscan=1
 # goes off screen, and negative if there is too much border
 overscan_left=24
 overscan_right=30
-overscan_top=-26
-overscan_bottom=-16
+#overscan_top=-26
+#overscan_bottom=-16
 
 # uncomment to force a console size. By default it will be display's size minus
 # overscan.
 framebuffer_width=480
-framebuffer_height=272
+framebuffer_height=320 #272
 
 # uncomment if hdmi display is not detected and composite is being output
 #hdmi_force_hotplug=1
