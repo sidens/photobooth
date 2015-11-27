@@ -19,7 +19,7 @@ This requires:
 #Current errors
  - On wifi fail - messaging (& functionality?) not updated
  - Clears pics before every run - bad if restarting script regularly
- - Printer failed after changing ink - debug this!
+ - Printer failed after changing ink - debug this! - [possible solution here](https://www.raspberrypi.org/forums/viewtopic.php?f=38&t=75899)
  - Explore why image is tinted red in low light situations. (because of red pose LED?)
 
 #To Add:
